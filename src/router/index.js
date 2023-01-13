@@ -10,6 +10,11 @@ const routes = [
     component: Home,
   },
   {
+    path: "/GeoTestVue",
+    name: "Production",
+    component: Home,
+  },
+  {
     path: "/about",
     name: "About",
     component: About,

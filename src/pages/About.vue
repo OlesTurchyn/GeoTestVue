@@ -7,25 +7,23 @@
 
   <div id="text">
     <h3>What is this?</h3>
-    <p>GeoTest.io is a small web project that was built with the intention of practicing some software engineering skills
-      while studying geography.</p>
-      <p>&nbsp;</p>
-    <h3>How do I play?</h3>
-    <p>To play, simply click on a country and enter in what you think the name is. 
-      If you are correct, a point will be added and the country will turn green. Otherwise, the country will turn 
-      red. 
-    </p>
-    <p>&nbsp;</p>
-    <h3>Is this the final version?</h3>
-    <p>No. There are still many bugs to fix and features to add. As I keep learning in school or work, 
-      I like to keep coming back to this project.
-    </p>
-    <p>&nbsp;</p>
-    <h3>What technologies are used?</h3>
-    <p>This project originally started out to be purely HTML, CSS, and JAVASCRIPT. However, I started working with
-      Vue.js during an internship and decided to re-work the code with this framework. Vue allows me to make dynamic 
-      components that can be re-used across the project. 
-    </p>
+  <p>GeoTest.io is a small web project aimed at refining software engineering skills while exploring geography.</p>
+  <br>
+  <h3>How do I play?</h3>
+  <p>To play, simply click on a country and enter what you think its name is. 
+    If correct, the country turns green, and you earn a point. Otherwise, it turns red.
+  </p>
+  <br>
+  <h3>Is this the final version?</h3>
+  <p>No. There are still many bugs to fix and features to add. I continuously revisit this project 
+    as I learn in school or work.
+  </p>
+  <br>
+  <h3>What technologies are used?</h3>
+  <p>Initially, this project was built using HTML, CSS, and JavaScript. However, after working with 
+    Vue.js during an internship, I decided to refactor the code using this framework. Vue enables 
+    dynamic components that can be reused throughout the project.
+  </p>
    
     <div id="footer">
       <p>Made by Oleksander Turchyn in Ottawa, Canada</p>
@@ -56,16 +54,17 @@
   height: 500px;
   height: 300px;
   top:50px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: left;
   color: black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
+
 }
 
 #footer{
-  color:darkblue;
+  color:rgb(40, 40, 40);
   margin-top:25%;
 }
 
